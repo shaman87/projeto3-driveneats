@@ -67,7 +67,7 @@ function botaoPedido() {
     const botaoSelecionado = document.querySelector(".rodape-botao");
     if (contadorCaixa === 3) {
         botaoSelecionado.classList.add("rodape-selecionado");
-        botaoSelecionado.innerHTML = "Fechar pedido";
+        botaoSelecionado.innerHTML = '<div onclick="fecharPedido();">Fechar pedido</div>';
     }
 }
 
