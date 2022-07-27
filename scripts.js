@@ -80,6 +80,6 @@ function botaoPedido() {
 function fecharPedido() {
     let precoTotal = precoPrato + precoBebida + precoSobremesa;
     let mensagem = `Olá, gostaria de fazer o pedido: \n\ - Prato: ${pratoSelecionado} \n\ - Bebida: ${bebidaSelecionada} \n\ - Sobremesa: ${sobremesaSelecionada} \n\ Total: R$ ${precoTotal.toFixed(2)}`;
-    pedidoLink = "https://wa.me/5521983489668?text=" + encodeURIComponent(mensagem);
+    pedidoLink = "https://wa.me/55219xxxxxxxx?text=" + encodeURIComponent(mensagem);
     window.open(pedidoLink);
 }
